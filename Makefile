@@ -5,7 +5,7 @@ CC = gcc
 CFLAGS = -Wall -Wextra -g
 
 # Source files
-SRCS = main.c chunk.c memory.c debug.c value.c vm.c scanner.c compiler.c
+SRCS = main.c chunk.c memory.c debug.c value.c vm.c scanner.c compiler.c object.c
 
 # Object files (derived from the source files)
 OBJS = $(SRCS:.c=.o)
